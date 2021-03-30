@@ -18,10 +18,10 @@ All Four networks were trained with adam optimizers using the same learning rate
 |:------:|:-----------:|:-----:|:------:|
 | Buffer size  |  int |  configuration for maximum capacity of the replay buffer |10000|
 | Learning rate  | float  |  model learing rate | 3e-4|
-|  Tau | int  | Controls the soft update of target network | 4|
+|  Tau | int  | Controls the soft update of target network | 5e-3|
 | Epsilon Decay | float | This determines how the epsilon decreases during training| 0.9 |
 | Gamma | float | discount factor | 0.99 |
-|Initial Random Steps| int | determines how many random step is taken before exploiting the model |5e3 |
+|Initial Random Steps| int | determines how many random step is taken before exploiting the model |1e4 |
 | Policy Update Frequency | int | determines the frequency of updating the policy | 2 |
 
 ### Results
