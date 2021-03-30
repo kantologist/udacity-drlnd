@@ -28,6 +28,10 @@ The agent was able to get an average score (over 100 episode) of 13 in about 500
 
 ![results](plots/dqn_result.png)
 
+### Future works
+
+The DQN agent could enjoy a lot of improvements with some tricks such as dueling Network, Double DQN, N-step learning, prioritized experience replay,  Categorical DQN, Noisy Network. In fact there's a paper were all these tricks were applied, it's called "Rainbow: Combining Improvements in Deep Reinforcement Learning.".
+
 ### Credit
 
 Most of the code structure for DQN followed this projects [here](https://github.com/Curt-Park/rainbow-is-all-you-need)
