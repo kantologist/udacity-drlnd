@@ -29,8 +29,8 @@ All Four networks were trained with adam optimizers using the same learning rate
 The agent was able to get an average score (over 100 episode) of 30 in about 275 episodes. The graph of the result is shown below. The graph also includes the q-function losses, the v-function loss and the actor loss. The saved weights can be found in the model_weight directory as `model_weight/qf1.pt`,
 `model_weight/qf2.pt`, `model_weight/vf.pt` and `model_weight/actor.pt`
 
-![results](../plots/sac_result.png)
-![results](../plots/sac_loss.png)
+![results](plots/sac_result.png)
+![results](plots/sac_loss.png)
 
 ### Credit
 
